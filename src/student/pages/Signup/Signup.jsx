@@ -1,5 +1,5 @@
 import React from 'react';
-import './Signup.css';
+import './Signup.scss';
 import {Link} from 'react-router-dom';
 
 function Signup() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navigation.css'
+import './Navigation.scss';
 import {Link} from 'react-router-dom';
 
 function Navigation() {
@@ -21,7 +21,7 @@ function Navigation() {
                     </li>
                     <li>
                         <a href="#">
-                            <Link style={{color: 'inherit', textDecoration: 'inherit'}}>
+                            <Link to="/CourseRegistration" style={{color: 'inherit', textDecoration: 'inherit'}}>
                                 <i class="fa fa-list-alt fa-2x"></i>
                                 <span class="nav-text">Course Registration</span>
                             </Link>
@@ -29,7 +29,7 @@ function Navigation() {
                     </li>
                     <li>
                         <a href="#">
-                            <Link style={{color: 'inherit', textDecoration: 'inherit'}}>
+                            <Link to="/Attendance" style={{color: 'inherit', textDecoration: 'inherit'}}>
                                 <i class="fa fa-users fa-2x"></i>
                                 <span class="nav-text">Attendance</span>
                             </Link>
@@ -37,7 +37,7 @@ function Navigation() {
                     </li>
                     <li>
                         <a href="#">
-                            <Link style={{color: 'inherit', textDecoration: 'inherit'}}>
+                            <Link to="/Media" style={{color: 'inherit', textDecoration: 'inherit'}}>
                                 <i class="fa fa-picture-o fa-2x"></i>
                                 <span class="nav-text">Media</span>
                             </Link>
@@ -53,7 +53,7 @@ function Navigation() {
                     </li>
                     <li>
                         <a href="#">
-                            <Link style={{color: 'inherit', textDecoration: 'inherit'}}>
+                            <Link to="/Quiz" style={{color: 'inherit', textDecoration: 'inherit'}}>
                                 <i class="fa fa-file-text-o fa-2x"></i>
                                 <span class="nav-text">Quiz</span>
                             </Link>
@@ -61,7 +61,7 @@ function Navigation() {
                     </li>
                     <li>
                         <a href="#">
-                            <Link style={{color: 'inherit', textDecoration: 'inherit'}}>
+                            <Link to="/Whiteboard" style={{color: 'inherit', textDecoration: 'inherit'}}>
                                 <i class="fa fa-pencil fa-2x"></i>
                                 <span class="nav-text">Digital Whiteboard</span>
                             </Link>
@@ -69,7 +69,7 @@ function Navigation() {
                     </li>
                     <li>
                         <a href="#">
-                            <Link style={{color: 'inherit', textDecoration: 'inherit'}}>
+                            <Link to="/AcademicReport" to="/AcademicReport" style={{color: 'inherit', textDecoration: 'inherit'}}>
                                 <i class="fa fa-bar-chart-o fa-2x"></i>
                                 <span class="nav-text">Academic Report</span>
                             </Link>
@@ -77,7 +77,7 @@ function Navigation() {
                     </li>
                     <li>
                         <a href="#">
-                            <Link style={{color: 'inherit', textDecoration: 'inherit'}}>
+                            <Link to="/FeeChallan" style={{color: 'inherit', textDecoration: 'inherit'}}>
                                 <i class="fa fa-dollar fa-2x"></i>
                                 <span class="nav-text">Fee Challan</span>
                             </Link>
